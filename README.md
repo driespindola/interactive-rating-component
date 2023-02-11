@@ -10,6 +10,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Overview](#overview)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -47,7 +48,7 @@ Users should be able to:
 
 ### Overview
 
-I previously completed similar challenges utilizing only HTML and CSS. However, even though utilizing additional technologies was not a requirement, I elected to utilize React and test my proficiency with Tailwind CSS to further enhance my skill set.
+This challenge was completed utilizing TypeScript for data storage and prop passing to a newly created component. In addition to the core requirements of the challenge, I incorporated keyframes to enhance the visual transition between the main page and the 'thank you' page, providing a more aesthetically pleasing user experience.
 
 ### Useful resources
 
