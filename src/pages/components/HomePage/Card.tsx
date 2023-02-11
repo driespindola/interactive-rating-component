@@ -5,14 +5,14 @@ export type Option = {
   value: number;
 }
 
-const Card: FC<Option> = ({ value }) => {
+const Card: FC = () => {
 
     const options: Option[] = [
-        { "value": 1 },
-        { "value": 2 },
-        { "value": 3 },
-        { "value": 4 },
-        { "value": 5 },
+        { value: 1 },
+        { value: 2 },
+        { value: 3 },
+        { value: 4 },
+        { value: 5 },
     ]
 
     const [selectedOption, setSelectedOption] = useState<Option | null>(null)
