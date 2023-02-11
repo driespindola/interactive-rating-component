@@ -18,7 +18,7 @@ const ThankYou: FC<Props> = ({ selectedOption }) => {
                 You selected {selectedOption?.value} out of 5
             </div>
             <h1 className="mt-[29px] ml-[100px] md:mt-[42px] md:ml-[133px] text-white font-overpass font-bold text-[23px] md:text-[28px]">Thank you!</h1>
-            <p className="mt-[14px] mx-[16px] md:ml-[31px] md:mr-[41px] mb-[40px] md:mb-[45px] text-[#959EAC] text-[15px] font-overpass text-center leading-[24px] tracking-[-0.036em] md:tracking-[-0.005em]">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+            <p className="mt-[14px] mx-[16px] md:ml-[31px] md:mr-[41px] mb-[40px] md:mb-[45px] text-[#959EAC] text-[15px] font-overpass text-center leading-[24px] tracking-[-0.036em] md:tracking-[-0.005em]">We appreciate you taking the time to give a rating. If you ever need more support, don&apost hesitate to get in touch!</p>
         </div>
     )
 }
