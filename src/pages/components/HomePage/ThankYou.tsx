@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Option } from "./types";
+import { Option } from "./Card";
 
 interface Props {
     selectedOption: Option | null

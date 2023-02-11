@@ -1,6 +1,9 @@
 import React, { FC, useState } from "react"
-import { Option } from "./types"
 import ThankYou from "./ThankYou"
+
+export type Option = {
+  value: number;
+}
 
 const Card: FC = () => {
 
@@ -47,7 +50,7 @@ const Card: FC = () => {
         <button onClick={handleSubmit} className="flex justify-center items-center mx-auto mt-[26px] md:mt-[32px] mb-[31px] md:mb-[29px] p-auto w-[281px] md:w-[340px] h-[45px] bg-[#FC7613] hover:bg-white text-white hover:text-[#FC7613] font-overpass text-[15px] tracking-[0.09em] md:tracking-[0.15em] uppercase rounded-full">Submit</button>
         {showThankYou && (
           <div className="flex w-full absolute left-0 top-0 justify-center items-center bg-[#141519]">
-            <ThankYou selectedOption={selectedOption} />
+            <ThankYou selectedOption={selectedOption as Option} />
           </div>
         )}
       </div>
