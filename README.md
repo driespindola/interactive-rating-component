@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/driespindola/product-preview-card)
-- Live Site URL: [Vercel](https://product-preview-card-ochre.vercel.app/)
+- Solution URL: [Github](https://github.com/driespindola/interactive-rating-component)
+- Live Site URL: [Vercel](https://interactive-rating-component-gamma-ivory.vercel.app/)
 
 ## My process
 
