@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'overpass': ['Overpass'],
+        'montserrat': ['Montserrat'],
+        'fraunces': ['Fraunces']
       }
     },
   },

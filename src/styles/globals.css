@@ -7,7 +7,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #141519;
+  background-color: #F3EAE3;
 }
 
 a {
@@ -17,22 +17,6 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-.animate-myAnim {
-  animation: myAnim 1s ease 0s 1 normal forwards;
-}
-
-@keyframes myAnim {
-	0% {
-		opacity: 0;
-		transform: translateY(250px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
 }
 
 .videos::-webkit-scrollbar {
