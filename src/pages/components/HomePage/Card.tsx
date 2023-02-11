@@ -5,7 +5,7 @@ export type Option = {
   value: number;
 }
 
-const Card: FC = () => {
+const Card: FC<Option> = ({ value }) => {
 
     const options: Option[] = [
         { "value": 1 },
