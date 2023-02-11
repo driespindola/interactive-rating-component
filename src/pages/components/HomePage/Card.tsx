@@ -45,7 +45,7 @@ const Card: FC = () => {
         <p className="mt-[11px] ml-[23px] mr-[22px] md:ml-[31px] md:mr-[44px] text-[#959EAC] text-[15px] font-overpass leading-[22px] md:leading-[23px] tracking-[-0.037em] md:tracking-[-0.005em]">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
         <span className="flex flex-row mt-[24px] ml-[22px] md:ml-[32px]">
             {options.map((option) => (
-                <button onClick={() => handleOptionClick(option)} className="bg-[#272E38] hover:bg-[#FC7613] focus:bg-[#7C8898] w-[41px] md:w-[51px] h-[41px] md:h-[51px] mr-[20px] p-auto text-[#959EAC] hover:text-[#C1C5CB] focus:text-[#C1C5CB] font-overpass text-[17px] rounded-full">
+                <button key={option.value} onClick={() => handleOptionClick(option)} className="bg-[#272E38] hover:bg-[#FC7613] focus:bg-[#7C8898] w-[41px] md:w-[51px] h-[41px] md:h-[51px] mr-[20px] p-auto text-[#959EAC] hover:text-[#C1C5CB] focus:text-[#C1C5CB] font-overpass text-[17px] rounded-full">
                     {option.value}
                 </button>
             ))}
