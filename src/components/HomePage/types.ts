@@ -1,3 +1,3 @@
-export type Option = {
+export interface Option {
     value: number;
 }
