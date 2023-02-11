@@ -8,6 +8,7 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet" />
         <link rel="shortcut icon" href="/favicon-32x32.png" />
+        <title>Frontend Mentor | Interactive rating component</title>
       </Head>
       <body>
         <Main />

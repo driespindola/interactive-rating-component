@@ -32,7 +32,7 @@ const Card: FC = () => {
     };
 
     return (
-      <div className="mt-[195px] mb-[195px] max-w-[326px] max-h-[361px] md:max-w-[411px] md:max-h-[413px] bg-gradient-to-br from-[#212832] to-[#19202A] rounded-3xl">
+      <div className="mt-[195px] mb-[165px] max-w-[326px] max-h-[361px] md:max-w-[411px] md:max-h-[413px] bg-gradient-to-br from-[#212832] to-[#19202A] rounded-3xl">
         <div className="bg-[#272E38] max-w-[46px] max-h-[46px] mt-[22px] ml-[22px] md:mt-[33px] md:ml-[33px] p-[15px] rounded-full">
             <Image
               width={16}
