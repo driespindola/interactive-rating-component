@@ -26,7 +26,9 @@ Users should be able to:
 ### Screenshots
 
 ![Desktop](./screenshots/screenshotdesktop.png)
+![Desktop Thank You](./screenshots/screenshotdesktopthankyou.png)
 ![Mobile](./screenshots/screenshotmobile.png)
+![Mobile Thank You](./screenshots/screenshotmobilethanyou.png)
 
 ### Links
 
