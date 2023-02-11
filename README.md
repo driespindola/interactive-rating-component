@@ -28,7 +28,7 @@ Users should be able to:
 ![Desktop](./screenshots/screenshotdesktop.png)
 ![Desktop Thank You](./screenshots/screenshotdesktopthankyou.png)
 ![Mobile](./screenshots/screenshotmobile.png)
-![Mobile Thank You](./screenshots/screenshotmobilethanyou.png)
+![Mobile Thank You](./screenshots/screenshotmobilethankyou.png)
 
 ### Links
 
